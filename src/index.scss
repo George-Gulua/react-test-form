@@ -1,0 +1,28 @@
+:root {
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --button-primary-color: #007af4;
+  --border-color: #1b3a5966;
+  --primary-theme: 'Inter', sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--primary-theme);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--primary-text-color);
+}

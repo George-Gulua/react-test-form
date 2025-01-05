@@ -1,0 +1,23 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 520px;
+  padding: 72px 54px 48px 54px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(27, 58, 89, 0.25);
+}
+
+.image {
+  position: absolute;
+  top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button {
+  margin-top: 20px;
+}

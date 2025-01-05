@@ -1,0 +1,15 @@
+.button {
+  font-weight: 500;
+  line-height: 19px;
+  padding: 12px 72px;
+  border-radius: 6px;
+  background-color: var(--button-primary-color);
+  color: var(--secondary-text-color);
+  border: none;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
